@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.submission.dicodingevent.ui.HomepageDicodingEvent.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.submission.dicodingevent.ui.UpcommingEventDicoding.UpcommingEventFrg"
+        tools:layout="@layout/upcomming_event" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.submission.dicodingevent.ui.favorite.Favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.submission.dicodingevent.ui.FinishedEventDicoding.FinishedEventFrg"
+        tools:layout="@layout/finished_event" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.submission.dicodingevent.ui.setting.SettingFragment"
+        tools:layout="@layout/fragment_setting_fragment" />
+</navigation>

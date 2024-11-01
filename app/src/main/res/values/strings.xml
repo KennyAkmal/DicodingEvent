@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DicodingEvent</string>
+    <string name="title_home">Home</string>
+    <string name="tittle_fnev">Finished</string>
+    <string name="title_upev">Upcoming</string>
+    <string name="summary">Summary</string>
+    <string name="tittle">tittle</string>
+    <string name="hmtittle">dicoding event</string>
+    <string name="upcmevtxt">upcoming event</string>
+    <string name="fnevtxt">finished event</string>
+    <string name="detaev">Detail event</string>
+    <string name="nmev">nmev</string>
+    <string name="nmownr">nmPenyelenggara</string>
+    <string name="tmevnt">tmevnt</string>
+    <string name="qtevnt">qtevnt</string>
+    <string name="textview">TextView</string>
+    <string name="btnlnk">Open Event Link</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="txqt">Sisa kuota yang tersedia</string>
+    <string name="setting">Setting</string>
+    <string name="themeDarktxt">Dark Mode</string>
+    <string name="imagecover">ImageCover</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">Favorite</string>
+    <string name="favtxt">Add to favorite</string>
+    <string name="tvhmupevent">List event yang akan datang, ayo daftar sekarang!</string>
+    <string name="favnf">Kamu belum menambahkan event ke favorite</string>
+    <string name="favevtxt">My Favorite</string>
+    <string name="tvmyfav">List favorite ku</string>
+    <string name="changetheme">Change theme</string>
+    <string name="refresh">Refresh</string>
+    <string name="txtendevent">List event yang sudah selesai, sampai jumpa di event yang akan datang</string>
+    <string name="hmtxt">Selamat datang di aplikasi Dicoding Event !</string>
+</resources>

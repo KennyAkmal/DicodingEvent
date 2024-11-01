@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DicodingEvent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/bluean</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="poppinsfnt" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="fntreguler" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+    <style name="fntsmbldblack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="fntbldblack17" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="fntsmbldblackwht" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="color">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
